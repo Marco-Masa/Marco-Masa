@@ -1,4 +1,4 @@
-# Programa de cálculo de média de notas
+# Programa de Cálculo de Média de Notas
 # Autor: Marco Aurélio Souza Amorim
 # Entrada
 nome = input("Digite o nome do aluno: ")
