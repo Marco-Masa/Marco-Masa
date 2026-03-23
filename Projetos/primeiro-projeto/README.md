@@ -1,8 +1,6 @@
 # 🥇 Cálculo de Média de Notas
 ## 🚀 Objetivo
-- Este projeto em Python foi criado para praticar o ciclo **Entrada → Processamento →
-Saída**. O programa solicita o **nome do aluno** e duas **notas**, calcula a média e mostra se o
-aluno foi aprovado ou reprovado.
+- Este projeto em Python foi criado para praticar o ciclo **Entrada → Processamento → Saída**. O programa solicita o **nome do aluno** e duas **notas**, calcula a média e mostra se o aluno foi aprovado ou reprovado.
 ## 🔧 Instruções de Uso:
 - Informe o nome do aluno.
 - Digite a primeira nota.
