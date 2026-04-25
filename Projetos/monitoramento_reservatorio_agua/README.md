@@ -8,31 +8,32 @@
 ## ✔ Exemplo dos resultados:
 Simulação do Monitoramento de Reservatório de Água
 
-Simulação Nível 1:<br>
-<span style="color: red">Nível 1 - Muito baixo
-Atenção: O nível de água está muito baixo. Risco de escassez.</span>
+Simulação Nível 1: (em Vermelho)<br>
+Nível 1 - Muito baixo
+Atenção: O nível de água está muito baixo. Risco de escassez.
 
-Simulação Nível 2:<br>
-<span style="color: yellow">Nível 2 - Baixo
-Atenção: O nível de água está baixo. Considere economizar.</span>
+Simulação Nível 2: (em Amarelo)<br>
+Nível 2 - Baixo
+Atenção: O nível de água está baixo. Considere economizar.
 
-Simulação Nível 3:<br>
-<span style="color: green">Nível 3 - Médio
-O nível de água está médio. Situação estável.</span>
+Simulação Nível 3: (Em Verde)<br>
+Nível 3 - Médio
+O nível de água está médio. Situação estável.
 
-Simulação Nível 4:<br>
-<span style="color: cyan">Nível 4 - Alto
-Atenção: O nível de água está alto. Monitoramento recomendado.</span>
+Simulação Nível 4: (em Ciano)<br>
+Nível 4 - Alto
+Atenção: O nível de água está alto. Monitoramento recomendado.
 
-Simulação Nível 5:<br>
-<span style="color: blue">Nível 5 - Muito alto
-Atenção: O nível de água está muito alto. Risco de transbordamento.</span>
+Simulação Nível 5: (em Azul)<br>
+Nível 5 - Muito alto
+Atenção: O nível de água está muito alto. Risco de transbordamento.
 
 Bem-vindo ao Sistema de Monitoramento de Reservatório de Água!
 
 Digite o valor percentual do nível de água atual (0-100): 50<br>
-<span style="color: green">Nível 3 - Médio
-O nível de água está médio. Situação estável.</span>
+(em Verde)<br>
+Nível 3 - Médio
+O nível de água está médio. Situação estável.
 ## 🌟Recursos
 - A entrada de **Nível de Água** possui validação para números válidos (0 - 100) e informação em brando.
 - É disponibilizado no inicio do programa uma apresentação de simulação das respostas para todos os níveis válidos.
