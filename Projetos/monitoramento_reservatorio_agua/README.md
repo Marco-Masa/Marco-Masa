@@ -9,30 +9,30 @@
 Simulação do Monitoramento de Reservatório de Água
 
 Simulação Nível 1: (em Vermelho)<br>
-Nível 1 - Muito baixo
+Nível 1 - Muito baixo<br>
 Atenção: O nível de água está muito baixo. Risco de escassez.
 
 Simulação Nível 2: (em Amarelo)<br>
-Nível 2 - Baixo
+Nível 2 - Baixo<br>
 Atenção: O nível de água está baixo. Considere economizar.
 
 Simulação Nível 3: (Em Verde)<br>
-Nível 3 - Médio
+Nível 3 - Médio<br>
 O nível de água está médio. Situação estável.
 
 Simulação Nível 4: (em Ciano)<br>
-Nível 4 - Alto
+Nível 4 - Alto<br>
 Atenção: O nível de água está alto. Monitoramento recomendado.
 
 Simulação Nível 5: (em Azul)<br>
-Nível 5 - Muito alto
+Nível 5 - Muito alto<br>
 Atenção: O nível de água está muito alto. Risco de transbordamento.
 
 Bem-vindo ao Sistema de Monitoramento de Reservatório de Água!
 
 Digite o valor percentual do nível de água atual (0-100): 50<br>
 (em Verde)<br>
-Nível 3 - Médio
+Nível 3 - Médio<br>
 O nível de água está médio. Situação estável.
 ## 🌟Recursos
 - A entrada de **Nível de Água** possui validação para números válidos (0 - 100) e informação em brando.
