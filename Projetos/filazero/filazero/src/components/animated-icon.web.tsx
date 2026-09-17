@@ -61,12 +61,12 @@ export function AnimatedIcon() {
         <Image style={styles.glow} source={require('@/assets/images/logo-glow.png')} />
       </Animated.View>
 
-      <Animated.View style={styles.background} entering={keyframe.duration(DURATION)}>
-        <div className={classes.expoLogoBackground} />
-      </Animated.View>
+      {/* <Animated.View style={styles.background} entering={keyframe.duration(DURATION)}> */}
+        {/* <div className={classes.expoLogoBackground} /> */}
+      {/* </Animated.View> */}
 
       <Animated.View style={styles.imageContainer} entering={logoKeyframe.duration(DURATION)}>
-        <Image style={styles.image} source={require('@/assets/images/expo-logo.png')} />
+        <Image style={styles.image} source={require('@/assets/images/logo_fila_zero_1.png')} />
       </Animated.View>
     </View>
   );
@@ -85,8 +85,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   glow: {
-    width: 201,
-    height: 201,
+    width: 251,
+    height: 251,
     position: 'absolute',
   },
   iconContainer: {
@@ -97,8 +97,8 @@ const styles = StyleSheet.create({
   },
   image: {
     position: 'absolute',
-    width: 76,
-    height: 71,
+    width: 150,
+    height: 140,
   },
   background: {
     width: 128,

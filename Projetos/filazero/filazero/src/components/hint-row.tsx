@@ -11,21 +11,23 @@ type HintRowProps = {
   hint?: ReactNode;
 };
 
-export function HintRow({ title = 'Try editing', hint = 'app/index.tsx' }: HintRowProps) {
+export function HintRow({ title = 'Diogo Gonçalves de Jesus\nGustavo Leandro Dantas da Silva\nKauê Figueiredo da Costa\nMarco Aurélio Souza Amorim\nVitor José Sena Neres', hint = 'app/index.tsx' }: HintRowProps) {
   return (
     <View style={styles.stepRow}>
-      <ThemedText type="small">{title}</ThemedText>
-      <ThemedView type="backgroundSelected" style={styles.codeSnippet}>
+      <ThemedText type="smallCenter">{title}</ThemedText>
+      {/* <ThemedView type="backgroundSelected" style={styles.codeSnippet}>
         <ThemedText themeColor="textSecondary">{hint}</ThemedText>
-      </ThemedView>
+      </ThemedView> */}
     </View>
+    
   );
 }
 
 const styles = StyleSheet.create({
   stepRow: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    // justifyContent: 'space-between',
+    justifyContent: 'center',    
   },
   codeSnippet: {
     borderRadius: Spacing.two,

@@ -1,56 +1,89 @@
-# Welcome to your Expo app 👋
+# 📱 FilaZero
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> O Tempo a seu favor
 
-## Get started
+O **FilaZero** é o aplicativo móvel desenvolvido como o Trabalho de Conclusão de Curso (TCC).
+  
+O projeto utiliza **React Native** para oferecer uma experiência fluida, moderna e multiplataforma (Android e iOS), visando revolucionar a forma como lidamos com o agendamento de serviços.
 
-1. Install dependencies
+O projeto Fila Zero consiste no desenvolvimento de uma plataforma destinada a aproximar empresas prestadoras de serviços e consumidores, facilitando o processo de busca e agendamento de atendimentos.
 
+A proposta é permitir que empresas disponibilizem seus serviços e horários de atendimento por meio do aplicativo, enquanto os consumidores poderão consultar os horários disponíveis e realizar seus agendamentos diretamente pela plataforma.
+
+O sistema também contará com notificações para as empresas quando um novo agendamento for realizado e avisos aos consumidores antes do horário marcado.
+
+Além disso, será utilizado o WhatsApp como recurso de comunicação para o envio de mensagens relacionadas aos agendamentos.
+
+O acesso ao aplicativo será gratuito para os consumidores, enquanto as empresas pagarão uma mensalidade para disponibilizar seus serviços e agendas na plataforma.
+
+---
+
+## 🚀 Funcionalidades Principais
+
+* **Entrada Virtual:** Permite que o usuário realize agendamento de serviços de forma remota.
+* **Acompanhamento em Tempo Real:** Atualizações ao vivo dos horários de atendimento disponiveis.
+* **Notificações Push:** Avisos automatizados quando o agendamento estiver próxima.
+* **Histórico de Atendimentos:** Painel com o histórico de locais visitados.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi construído utilizando o ecossistema moderno do React Native:
+
+* **React Native** (com Expo)
+* **TypeScript** (para tipagem estática e segurança do código)
+* **React Navigation** (para navegação entre telas)
+* **Tailwind CSS / Styled Components** (para estilização da interface)
+* **Node.js** para persistência de dados
+
+---
+
+## 🔧 Como Executar o Projeto
+
+Siga os passos abaixo para rodar o FilaZero localmente na sua máquina.
+
+### Pré-requisitos
+Você vai precisar de:
+* Node.js instalado
+* Expo Go instalado no seu celular (para testes físicos) ou um emulador configurado
+
+### Passo a Passo
+
+1. **Clonar o repositório:**
    ```bash
-   npm install
+   git clone https://github.com/Marco-Masa/Marco-Masa/tree/main/Projetos/filazero
    ```
 
-2. Start the app
+2. **Entrar na pasta do projeto:**
+   ```bash
+   cd filazero
+   ```
 
+3. **Instalar as dependências:**
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+4. **Iniciar o servidor do Expo:**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+5. **Abrir o app:**
+   Escaneie o código QR gerado no terminal usando a câmera do seu celular (iOS) ou o aplicativo Expo Go (Android).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🎓 Autores (Desenvolvedores do TCC)
 
-## Get a fresh project
+* **Diogo Gonçalves de Jesus** - *Desenvolvedor*
+* **Gustavo Leandro Dantas da Silva** - *Desenvolvedor*
+* **Kauê Figueiredo da Costa** - *Desenvolvedor*
+* **Marco Aurélio Souza Amorim** - *Desenvolvedor*
+* **Vitor José Sena Neres** - *Desenvolvedor*
 
-When you're ready, run:
+Orientadoras: Prof. Me.Eulaliane Gonçalves e Prof. Esp. Renata Florence
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
